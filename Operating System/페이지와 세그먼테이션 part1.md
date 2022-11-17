@@ -21,7 +21,7 @@
             - base register + logical address
             
 
-![Untitled](%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A6%E1%84%80%E1%85%B3%E1%84%86%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20(1)%200004003480514e1c9268ffeea3d6b6d4/Untitled.png)
+![image](https://user-images.githubusercontent.com/30929671/202478442-eaa5c998-f902-4072-aada-50691781d11c.png)
 
 1. Logical addr space vs Physical addr space
     - Logical Address Space
@@ -34,7 +34,7 @@
 
 ### Execution time  binding
 
-![Untitled](%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A6%E1%84%80%E1%85%B3%E1%84%86%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20(1)%200004003480514e1c9268ffeea3d6b6d4/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/30929671/202478514-c1b84712-b386-4860-9c99-0fed40d554c3.png)
 
 *relocation register == 프로세스 시작 위치 
 
@@ -52,8 +52,8 @@
 - contiguous allocation이어야 논리적 주소 + 프로세스 시작 주소 = 실제 주소가 성립함
 - 문제점: 프로세스 swapping 과정에서 hole 발생 (Fragmentation)
     
-    ![Untitled](%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A6%E1%84%80%E1%85%B3%E1%84%86%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20(1)%200004003480514e1c9268ffeea3d6b6d4/Untitled%202.png)
-    
+    ![image](https://user-images.githubusercontent.com/30929671/202478563-2cb92431-7cba-4f4d-b8f0-cff82d50e5f0.png)
+
 - allocation policies
     1.  first fit : 프로세스가 들어갈 수 있는 첫 공간
     2. best fit: 프로세스가 들어갈 수 있는 것 중 가장 작은 공간
@@ -88,7 +88,8 @@ External fragmentation 문제를 해결하기 위해, 프로세스를 레고 블
 
 유저 프로세스를 프레임과 같은 블록으로 분할한다 (페이지)
 
-![Untitled](%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A6%E1%84%80%E1%85%B3%E1%84%86%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20(1)%200004003480514e1c9268ffeea3d6b6d4/Untitled%203.png)
+![image](https://user-images.githubusercontent.com/30929671/202478642-70b03b69-d252-4673-bbe1-8d1510950b08.png)
+
 
 - 장점 : external fragmentation 원천적 차단
     - internal fragmentation은 마지막 페이지에만 생김
@@ -98,7 +99,8 @@ External fragmentation 문제를 해결하기 위해, 프로세스를 레고 블
 
 ### Paging: Address Translation Architecture
 
-![Untitled](%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A6%E1%84%80%E1%85%B3%E1%84%86%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20(1)%200004003480514e1c9268ffeea3d6b6d4/Untitled%204.png)
+![image](https://user-images.githubusercontent.com/30929671/202478686-62e1b8f2-9a3b-4dfa-97da-d4ad23da5272.png)
+
 
 p: page number
 
