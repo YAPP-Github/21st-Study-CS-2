@@ -136,7 +136,6 @@ f: frame 주소
 
 contiguous allocation 에 비해 성능을 약간만 희생해서 external fragmentation 해결할 수 있다.
 
-페이지테이블에 valid bit을 설정해서 page를 쉐어할 수 있음
 
 ### next
 
